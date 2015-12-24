@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<head>
+    <title>ping-me : a cross platform personalized ping</title>
+
+    <meta charset="utf-8" />
+    <meta name="description" content="A cross platform personalized ping">
+    <meta name="keywords" content="ping-me,ping,me,orkohunter,himanshu,mishra">
+    <meta name="author" content="Himanshu Mishra">
+    
+    <script src="jquery-2.1.4.min.js"></script>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/typed.css" />
+
+    <script>
+      $(function(){
+
+        $("#typed").typed({
+            strings: [
+            "ping-me to call mom tonight",
+            "ping-me to go home next weekend",
+            "ping-me to sleep in 30 mins",
+            "ping-me to go workout next month",
+            "ping-me to take a power nap this afternoon",
+            "ping-me to call mom tonight"],
+            typeSpeed: 30,
+        });
+
+        document.getElementById('install').onclick = function() {
+            window.open("https://chrome.google.com/webstore/detail/ping-me/blcdkjncblkniknjkkcmlbfddeemidap", "_blank");
+        };
+    });
+    </script>
+
+</head>
+
+<body>
+
+    <div class="row">
+
+        <div class="col s12">&nbsp</div>
+        <div align="center" style="font-size:22px;" class="col s3"><a href="http://ping-me.in" target="_blank">Ping Me</a></div>
+        <div style="font-size:22px;" class="col s1 offset-s7"><a href="http://ping-me.in/faqs" target="_blank">FAQs</a></div>
+        <div style="font-size:22px;" class="col s1 "><a href="https://github.com/OrkoHunter/ping-me" target="_blank">GitHub</a></div>
+
+        <div class="col s12">&nbsp</div>
+        <div class="col s12">&nbsp</div>
+        <div class="col s12">&nbsp</div>
+        <div class="col s12">&nbsp</div>
+        <div class="col s12">&nbsp</div>
+        <div class="col s12">&nbsp</div>
+        <div class="col s12">&nbsp</div>
+        <div class="col s12">&nbsp</div>
+
+        <div class="container">
+            <div class="col s4" align="center">Installation
+                <div style="height:200px" class="card-panel teal z-depth-2">
+                    <span class="white-text">Install using pip
+                <br><br><br>
+                <code>
+                    $ pip install ping-me
+                </code>
+                <br>
+                </span>
+                </div>
+            </div>
+
+            <div class="col s4" align="center">Chrome extension
+                <div style="height:200px" class="card-panel teal z-depth-2">
+                    <span class="white-text">
+
+                Get chrome notifications !
+
+                <br><br><br>
+                <div class="btn" id="install">Install</div>
+                </span>
+                </div>
+            </div>
+            <div class="col s4" align="center">Android
+                <div style="height:200px" class="card-panel teal z-depth-2">
+                    <span class="white-text">
+                <br><br><br>
+                Coming Soon!
+                <br><br>
+                </span>
+                </div>
+
+            </div>
+
+        <div class="col s12">&nbsp</div>
+        <div class="col s12">&nbsp</div>
+        <div class="col s12">&nbsp</div>
+
+        <div class="col s12">&nbsp</div>
+        <div class="col s12">&nbsp</div>
+        <div class="col s12">&nbsp</div>
+        <div style="color:teal; font-size:30px" class="cols s1">Usage</div>
+        <div class="divider"></div>
+
+
+        <div class="head-wrap">
+            <div class="text-editor-wrap">
+                <div class="title-bar"><span class="title">ping-me &mdash; bash &mdash; 80x25</span></div>
+                <div class="text-body">
+                    $ <span id="typed"></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+        <footer class="page-footer transparent">
+          <div class="footer-copyright teal">
+            <div align="center" class="container">
+            Made with ♥ by <a style="color:rgba(255,255,255,0.8)" href="https://github.com/orkohunter" target="_blank">Himanshu Mishra<a>
+            </div>
+          </div>
+        </footer>
+
+
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/typed.custom.js"></script>
+    <script src="js/site.js"></script>
+</body>
